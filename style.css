@@ -1,0 +1,61 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #2575fc;
+}
+
+/* Form Elements */
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-size: 16px;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+button {
+    background: #2575fc;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #6a11cb;
+}
+
+/* Result Box */
+pre {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
